@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F241D319BE77D30028FA2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F241D219BE77D30028FA2F /* Foundation.framework */; };
+		57F241D519BE77D30028FA2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F241D419BE77D30028FA2F /* CoreGraphics.framework */; };
+		57F241D719BE77D30028FA2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F241D619BE77D30028FA2F /* UIKit.framework */; };
+		57F241DD19BE77D30028FA2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57F241DB19BE77D30028FA2F /* InfoPlist.strings */; };
+		57F241DF19BE77D30028FA2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F241DE19BE77D30028FA2F /* main.m */; };
+		57F241E319BE77D30028FA2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F241E219BE77D30028FA2F /* AppDelegate.m */; };
+		57F241E619BE77D30028FA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F241E419BE77D30028FA2F /* Main.storyboard */; };
+		57F241E919BE77D30028FA2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F241E819BE77D30028FA2F /* ViewController.m */; };
+		57F241EB19BE77D30028FA2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F241EA19BE77D30028FA2F /* Images.xcassets */; };
+		57F241F219BE77D30028FA2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F241F119BE77D30028FA2F /* XCTest.framework */; };
+		57F241F319BE77D30028FA2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F241D219BE77D30028FA2F /* Foundation.framework */; };
+		57F241F419BE77D30028FA2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F241D619BE77D30028FA2F /* UIKit.framework */; };
+		57F241FC19BE77D30028FA2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57F241FA19BE77D30028FA2F /* InfoPlist.strings */; };
+		57F241FE19BE77D30028FA2F /* AppTrocarViewRotacaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F241FD19BE77D30028FA2F /* AppTrocarViewRotacaoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F241F519BE77D30028FA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F241C719BE77D30028FA2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F241CE19BE77D30028FA2F;
+			remoteInfo = AppTrocarViewRotacao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57F241CF19BE77D30028FA2F /* AppTrocarViewRotacao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTrocarViewRotacao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F241D219BE77D30028FA2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57F241D419BE77D30028FA2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57F241D619BE77D30028FA2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57F241DA19BE77D30028FA2F /* AppTrocarViewRotacao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppTrocarViewRotacao-Info.plist"; sourceTree = "<group>"; };
+		57F241DC19BE77D30028FA2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57F241DE19BE77D30028FA2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57F241E019BE77D30028FA2F /* AppTrocarViewRotacao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppTrocarViewRotacao-Prefix.pch"; sourceTree = "<group>"; };
+		57F241E119BE77D30028FA2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57F241E219BE77D30028FA2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57F241E519BE77D30028FA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F241E719BE77D30028FA2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57F241E819BE77D30028FA2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57F241EA19BE77D30028FA2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57F241F019BE77D30028FA2F /* AppTrocarViewRotacaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTrocarViewRotacaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F241F119BE77D30028FA2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		57F241F919BE77D30028FA2F /* AppTrocarViewRotacaoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppTrocarViewRotacaoTests-Info.plist"; sourceTree = "<group>"; };
+		57F241FB19BE77D30028FA2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57F241FD19BE77D30028FA2F /* AppTrocarViewRotacaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTrocarViewRotacaoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F241CC19BE77D30028FA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F241D519BE77D30028FA2F /* CoreGraphics.framework in Frameworks */,
+				57F241D719BE77D30028FA2F /* UIKit.framework in Frameworks */,
+				57F241D319BE77D30028FA2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F241ED19BE77D30028FA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F241F219BE77D30028FA2F /* XCTest.framework in Frameworks */,
+				57F241F419BE77D30028FA2F /* UIKit.framework in Frameworks */,
+				57F241F319BE77D30028FA2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F241C619BE77D30028FA2F = {
+			isa = PBXGroup;
+			children = (
+				57F241D819BE77D30028FA2F /* AppTrocarViewRotacao */,
+				57F241F719BE77D30028FA2F /* AppTrocarViewRotacaoTests */,
+				57F241D119BE77D30028FA2F /* Frameworks */,
+				57F241D019BE77D30028FA2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57F241D019BE77D30028FA2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F241CF19BE77D30028FA2F /* AppTrocarViewRotacao.app */,
+				57F241F019BE77D30028FA2F /* AppTrocarViewRotacaoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F241D119BE77D30028FA2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57F241D219BE77D30028FA2F /* Foundation.framework */,
+				57F241D419BE77D30028FA2F /* CoreGraphics.framework */,
+				57F241D619BE77D30028FA2F /* UIKit.framework */,
+				57F241F119BE77D30028FA2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57F241D819BE77D30028FA2F /* AppTrocarViewRotacao */ = {
+			isa = PBXGroup;
+			children = (
+				57F241E119BE77D30028FA2F /* AppDelegate.h */,
+				57F241E219BE77D30028FA2F /* AppDelegate.m */,
+				57F241E419BE77D30028FA2F /* Main.storyboard */,
+				57F241E719BE77D30028FA2F /* ViewController.h */,
+				57F241E819BE77D30028FA2F /* ViewController.m */,
+				57F241EA19BE77D30028FA2F /* Images.xcassets */,
+				57F241D919BE77D30028FA2F /* Supporting Files */,
+			);
+			path = AppTrocarViewRotacao;
+			sourceTree = "<group>";
+		};
+		57F241D919BE77D30028FA2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F241DA19BE77D30028FA2F /* AppTrocarViewRotacao-Info.plist */,
+				57F241DB19BE77D30028FA2F /* InfoPlist.strings */,
+				57F241DE19BE77D30028FA2F /* main.m */,
+				57F241E019BE77D30028FA2F /* AppTrocarViewRotacao-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F241F719BE77D30028FA2F /* AppTrocarViewRotacaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F241FD19BE77D30028FA2F /* AppTrocarViewRotacaoTests.m */,
+				57F241F819BE77D30028FA2F /* Supporting Files */,
+			);
+			path = AppTrocarViewRotacaoTests;
+			sourceTree = "<group>";
+		};
+		57F241F819BE77D30028FA2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F241F919BE77D30028FA2F /* AppTrocarViewRotacaoTests-Info.plist */,
+				57F241FA19BE77D30028FA2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F241CE19BE77D30028FA2F /* AppTrocarViewRotacao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F2420119BE77D30028FA2F /* Build configuration list for PBXNativeTarget "AppTrocarViewRotacao" */;
+			buildPhases = (
+				57F241CB19BE77D30028FA2F /* Sources */,
+				57F241CC19BE77D30028FA2F /* Frameworks */,
+				57F241CD19BE77D30028FA2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppTrocarViewRotacao;
+			productName = AppTrocarViewRotacao;
+			productReference = 57F241CF19BE77D30028FA2F /* AppTrocarViewRotacao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F241EF19BE77D30028FA2F /* AppTrocarViewRotacaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F2420419BE77D30028FA2F /* Build configuration list for PBXNativeTarget "AppTrocarViewRotacaoTests" */;
+			buildPhases = (
+				57F241EC19BE77D30028FA2F /* Sources */,
+				57F241ED19BE77D30028FA2F /* Frameworks */,
+				57F241EE19BE77D30028FA2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F241F619BE77D30028FA2F /* PBXTargetDependency */,
+			);
+			name = AppTrocarViewRotacaoTests;
+			productName = AppTrocarViewRotacaoTests;
+			productReference = 57F241F019BE77D30028FA2F /* AppTrocarViewRotacaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F241C719BE77D30028FA2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Claudio;
+				TargetAttributes = {
+					57F241EF19BE77D30028FA2F = {
+						TestTargetID = 57F241CE19BE77D30028FA2F;
+					};
+				};
+			};
+			buildConfigurationList = 57F241CA19BE77D30028FA2F /* Build configuration list for PBXProject "AppTrocarViewRotacao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F241C619BE77D30028FA2F;
+			productRefGroup = 57F241D019BE77D30028FA2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F241CE19BE77D30028FA2F /* AppTrocarViewRotacao */,
+				57F241EF19BE77D30028FA2F /* AppTrocarViewRotacaoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F241CD19BE77D30028FA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F241EB19BE77D30028FA2F /* Images.xcassets in Resources */,
+				57F241DD19BE77D30028FA2F /* InfoPlist.strings in Resources */,
+				57F241E619BE77D30028FA2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F241EE19BE77D30028FA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F241FC19BE77D30028FA2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F241CB19BE77D30028FA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F241E919BE77D30028FA2F /* ViewController.m in Sources */,
+				57F241E319BE77D30028FA2F /* AppDelegate.m in Sources */,
+				57F241DF19BE77D30028FA2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F241EC19BE77D30028FA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F241FE19BE77D30028FA2F /* AppTrocarViewRotacaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F241F619BE77D30028FA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F241CE19BE77D30028FA2F /* AppTrocarViewRotacao */;
+			targetProxy = 57F241F519BE77D30028FA2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57F241DB19BE77D30028FA2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F241DC19BE77D30028FA2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57F241E419BE77D30028FA2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F241E519BE77D30028FA2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57F241FA19BE77D30028FA2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F241FB19BE77D30028FA2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57F241FF19BE77D30028FA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57F2420019BE77D30028FA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F2420219BE77D30028FA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppTrocarViewRotacao/AppTrocarViewRotacao-Prefix.pch";
+				INFOPLIST_FILE = "AppTrocarViewRotacao/AppTrocarViewRotacao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57F2420319BE77D30028FA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppTrocarViewRotacao/AppTrocarViewRotacao-Prefix.pch";
+				INFOPLIST_FILE = "AppTrocarViewRotacao/AppTrocarViewRotacao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57F2420519BE77D30028FA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppTrocarViewRotacao.app/AppTrocarViewRotacao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppTrocarViewRotacao/AppTrocarViewRotacao-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppTrocarViewRotacaoTests/AppTrocarViewRotacaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		57F2420619BE77D30028FA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppTrocarViewRotacao.app/AppTrocarViewRotacao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppTrocarViewRotacao/AppTrocarViewRotacao-Prefix.pch";
+				INFOPLIST_FILE = "AppTrocarViewRotacaoTests/AppTrocarViewRotacaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F241CA19BE77D30028FA2F /* Build configuration list for PBXProject "AppTrocarViewRotacao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F241FF19BE77D30028FA2F /* Debug */,
+				57F2420019BE77D30028FA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F2420119BE77D30028FA2F /* Build configuration list for PBXNativeTarget "AppTrocarViewRotacao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F2420219BE77D30028FA2F /* Debug */,
+				57F2420319BE77D30028FA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57F2420419BE77D30028FA2F /* Build configuration list for PBXNativeTarget "AppTrocarViewRotacaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F2420519BE77D30028FA2F /* Debug */,
+				57F2420619BE77D30028FA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F241C719BE77D30028FA2F /* Project object */;
+}

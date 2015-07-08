@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>artista</key>
+		<string>Queen</string>
+		<key>album</key>
+		<string>Greatest Hits I</string>
+		<key>ano</key>
+		<string>1988</string>
+		<key>capa</key>
+		<string></string>
+		<key>preco</key>
+		<string>32,00</string>
+	</dict>
+	<dict>
+		<key>artista</key>
+		<string>Coldplay</string>
+		<key>album</key>
+		<string>Parachutes</string>
+		<key>ano</key>
+		<string>2000</string>
+		<key>preco</key>
+		<string>25,00</string>
+		<key>capa</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>artista</key>
+		<string>AC/DC</string>
+		<key>album</key>
+		<string>Black Ice</string>
+		<key>ano</key>
+		<string>2010</string>
+		<key>preco</key>
+		<string>28,00</string>
+		<key>capa</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
